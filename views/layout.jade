@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+    link(rel='stylesheet', href='/stylesheets/additions.css')
+  body
+   div.container
+    div.row
+     div
+      center
+       img(src="/images/Logo.png")
+      center
+       p#login-text. 
+        "Join up now and assess you or your players training progression"
+      center
+       form
+        input(name='fullName', type='text', value='', placeholder='USERNAME') 
+        input(name='password', type='password', value='' placeholder='PASSWORD')
+        button(name='submitBtn', type='button', value'LOGIN', class='btn btn-default btn-lg').
+         LOGIN
+  

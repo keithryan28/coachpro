@@ -1,0 +1,18 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("/images/seemless_bk_2.jpg");
+}
+
+}
+a {
+  color: #00B7FF;
+}
+.foo1 {
+	width: 65%;
+	margin: 0 auto;
+	background-color: red;
+}
+input{
+	display: block;
+}
