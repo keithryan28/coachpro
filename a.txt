@@ -1,0 +1,58 @@
+
+ head
+  title= pageTitle 
+link(rel='stylesheet', href='/stylesheets/style.css')
+link(rel='stylesheet', href='/stylesheets/bootstrap.css')
+link(rel='stylesheet', href='/stylesheets/additions2.css')
+
+body.player-profile-body
+ nav.navbar.navbar-inverse.player-profile
+  div
+   div.navbar-header
+    h1 Welcome #{uName}
+
+
+   ul.nav.navbar-nav.navbar-right
+    li.active.log-out
+     a(href="/logout") Logout
+
+
+ div#content-container
+  div#inner-container
+   div#left-content
+    div#scroll-player-tabs
+     
+
+
+     div.player-tab.active-tab.tab-1
+      ul
+      for user in players
+       li #{user.playerName}
+
+     div.player-tab
+      img(src="#")
+      p player info here 
+
+     div.player-tab
+      img(src="#")
+      p player info here
+
+     div.player-tab
+      img(src="#")
+      p player info here 
+
+     div.player-tab
+      img(src="#")
+      p player info here  
+
+     div.player-tab
+      img(src="#")
+      p player info here 
+
+     div.player-tab
+      img(src="#")
+      p player info here                   
+
+   div#right-content
+    div#graph
+    player data here
